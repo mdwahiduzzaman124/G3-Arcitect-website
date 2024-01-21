@@ -1,0 +1,50 @@
+/* work sans font from google */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    border: 0;
+    margin: 0;
+}
+
+/* header work and styles */
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+}
+
+.nav-title {
+    color: var(--Dark-01, #131313);
+    font-size: 3em;
+    font-weight: 700;
+}
+/* nav work done for now */
+/* banner work start */
+.banner-content{
+    max-width: 50rem;
+    text-align: center;
+    margin: 12.813rem auto;
+    margin-bottom: 0;
+}
