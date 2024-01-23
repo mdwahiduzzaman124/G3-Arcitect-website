@@ -161,7 +161,7 @@ main {
 
 .features-side-pic img {
     height: 90%;
-    margin-left:50px;
+    margin-left: 50px;
 }
 
 /* 10+ year work */
@@ -267,8 +267,7 @@ footer>p {
     nav,
     .features,
     .details-of-features,
-    .facts-details,
-     {
+    .facts-details {
         flex-direction: column;
     }
 
@@ -278,18 +277,21 @@ footer>p {
 
     .features-side-pic img {
         width: 100%;
-        margin-left: 0px ;
+        margin-left: 0px;
     }
-    .year{
+
+    .year {
         position: static;
         width: 300px;
         height: 100px;
         margin-top: 10px;
         padding: 10px;
     }
-    .year-content{
+
+    .year-content {
         padding-top: 0px;
     }
+
     .features-img-team {
         grid-template-columns: 1fr;
     }
